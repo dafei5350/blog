@@ -55,7 +55,7 @@ export default <VdoingThemeConfig>{
     avatar:
       "/assets/img/avatar.jpg",
     name: "weiliang",
-    slogan: "小小萌新",
+    slogan: "Enjoy when you can, and endure when you must",
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -65,22 +65,27 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-QQ",
         title: "QQ",
-        link: "/assets/html/qq-groups.html",
+        link: "tencent://message/?uin=535027650&Site=&Menu=yes",
       },
       {
         iconClass: "icon-bilibili",
         title: "哔哩哔哩",
-        link: "https://space.bilibili.com/28474682",
+        link: "https://space.bilibili.com/247298562",
+      },
+      {
+        iconClass: "icon-weixin",
+        title: "微信",
+        link: "https://space.bilibili.com/247298562",
       },
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/u2sb/vuepress-theme-vdoing-template",
+        link: "https://github.com/dafei5350",
       },
       {
         iconClass: "icon-youjian",
         title: "发邮件",
-        link: "mailto:xxwhite@foxmail.com",
+        link: "mailto:535027650@qq.com",
       },
     ],
   },
@@ -88,9 +93,9 @@ export default <VdoingThemeConfig>{
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
     createYear: 2022, // 博客创建年份
     copyrightInfo: `
-      <a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
+      <a href='https://blog.dafei110.cn' target='_blank'>weiliang's Blog</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
       <br>
-      <a href="http://beian.miit.gov.cn/" target="_blank">蒙ICP备12345678号-1</a>
+      <a href="http://beian.miit.gov.cn/" target="_blank">豫ICP备19032697号</a>
     `, // 博客版权信息，支持a标签
   },
 };
