@@ -63,7 +63,32 @@ export default <UserPlugins>[
         repo: 'blog',
         owner: 'dafei5350',
         admin: ['dafei5350'],
-        distractionFreeMode: false
+        // distractionFreeMode: false,
+        pagerDirection: 'last', // 'first'正序 | 'last'倒序
+        id: "<%- (window.location.origin + (frontmatter.to.path || window.location.pathname)).slice(-50) %>", //  页面的唯一标识,长度不能超过50
+        title: "「评论」<%- document.title %>", // GitHub issue 的标题
+        labels: ["Gitalk", "Comment"], // GitHub issue 的标签
+        body:"<%- document.title %>：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
+      }
+    }
+  ],
+  [
+    {
+      name: 'custom-plugins',
+      globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    }
+  ],
+  [
+    '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+    {
+      theme: ['blackCat'],
+      clean: true,
+      info: 'https://blog.dafei110.cn',
+      messages: {
+        welcome: '欢迎来到 <%- site.title > 的 blog',
+        home: '心里的花，我想要带你回家',
+        theme: '好吧，希望你能喜欢我的其他小伙伴。',
+        close: '再见哦'
       }
     }
   ]

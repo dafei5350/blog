@@ -41,6 +41,7 @@
     "vuepress-theme-vdoing": "^1.12.3"
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vuepress-plugin-go-top": "^1.0.4"
   }
 }
