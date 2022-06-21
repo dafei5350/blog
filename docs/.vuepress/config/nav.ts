@@ -14,6 +14,10 @@ export default <Array<NavItem>>[
       {
         text: "小程序",
         link: "/pages/90af01/",
+      },
+      {
+        text: "Node",
+        link: "/pages/ae436e/",
       }
     ],
   },
@@ -22,13 +26,18 @@ export default <Array<NavItem>>[
     text: "后端",
     items: [
       {
+        text: "数据库",
+        link: "/pages/64121c/",
+      },
+      {
         text: "Java",
         link: "/pages/85d6ed/",
       },
       {
-        text: "数据库",
-        link: "/pages/c04ff9/",
+        text: "Node",
+        link: "/pages/ae436e/",
       }
+
     ],
   },
   {
@@ -36,7 +45,7 @@ export default <Array<NavItem>>[
     items: [
       {
         text: "关于我",
-        link: "/pages/114270/",
+        link: "/pages/b17a2e/",
       }
     ],
   },

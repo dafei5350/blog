@@ -30,7 +30,15 @@
       box-shadow 0 0 25px rgba(150,150,150,.5)!important
     .gt-comment-body
       color var(--textColor)!important
-
+// 评论区与博客样式不匹配
+#vuepress-plugin-comment
+  max-width $contentWidth
+  margin 0 auto
+  padding 2rem 2.5rem
+  @media (max-width: $MQNarrow)
+    padding 2rem
+  @media (max-width: $MQMobileNarrow)
+    padding 1.5rem
 
 // qq徽章
 .qq

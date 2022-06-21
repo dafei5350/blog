@@ -53,4 +53,18 @@ export default <UserPlugins>[
   ],
   ["fulltext-search"],
   ['go-top'],
+  [
+    'vuepress-plugin-comment',
+    {
+      choosen: 'gitalk',
+      options: {
+        clientID: 'ccb3b5d588330d9916a6',
+        clientSecret: 'ad5c8eaa32fe41c6e1d0a57e52a09e62b8aab1a3',
+        repo: 'blog',
+        owner: 'dafei5350',
+        admin: ['dafei5350'],
+        distractionFreeMode: false
+      }
+    }
+  ]
 ];
