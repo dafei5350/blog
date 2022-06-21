@@ -9,28 +9,21 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 
 features: # 可选的
   - title: 大前端
-    details: JavaScript、
-    link: /start/ # 可选
+    details: 这个BUG一定是后端的问题
+    link: /pages/8d130b/ # 可选
     imgUrl: /assets/img/web.png # 可选
   - title: 算法
-    details: 不同部署平台的CI配置方法
-    link: /deploy/
+    details: 狗屁不会
+    link: /pages/cd4d4c/
     imgUrl: /assets/img/other.png
-  - title: 更多参考
-    details: 更多参考示例
-    link: /more/
-    imgUrl: /assets/img/more.png
-  - title: 视图
-    details: CSS相关
-    link: /more/
+  - title: 后端
+    details: 这个BUG一定是前端的问题
+    link: /pages/c04ff9/
     imgUrl: /assets/img/more.png
 
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-postList: none
+postList: detailed
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
-本项目由 [vuepress-theme-vdoing-template](https://github.com/u2sb/vuepress-theme-vdoing-template) 创建。
-
-[vuepress-theme-vdoing-template](https://github.com/u2sb/vuepress-theme-vdoing-template) 是 [vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) 的一个模板仓库，可帮助新用户快速使用 vdoing 主题。

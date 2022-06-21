@@ -38,5 +38,8 @@
     "vuepress-plugin-smplayer": "^1.5.3",
     "vuepress-plugin-zooming": "^1.1.8",
     "vuepress-theme-vdoing": "^1.12.3"
+  },
+  "devDependencies": {
+    "vuepress-plugin-go-top": "^1.0.4"
   }
 }

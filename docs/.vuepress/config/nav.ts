@@ -3,43 +3,51 @@
 import { NavItem } from "vuepress/config";
 
 export default <Array<NavItem>>[
-  { text: "Home", link: "/" },
+  { text: "首页", link: "/" },
   {
-    text: "配置",
+    text: "大前端",
     items: [
       {
-        text: "项目配置",
-        link: "/start/",
+        text: "Vue",
+        link: "/pages/25196d/",
       },
       {
-        text: "部署",
-        link: "/deploy/",
+        text: "小程序",
+        link: "/pages/90af01/",
+      }
+    ],
+  },
+  { text: "算法", link: "/pages/cd4d4c/" },
+  {
+    text: "后端",
+    items: [
+      {
+        text: "Java",
+        link: "/pages/85d6ed/",
       },
       {
-        text: "更多参考",
-        link: "/more/",
-      },
+        text: "数据库",
+        link: "/pages/c04ff9/",
+      }
     ],
   },
   {
-    text: "友情链接",
+    text: "关于",
     items: [
       {
-        text: "vuepress",
-        link: "https://vuepress.vuejs.org/",
-      },
-      {
-        text: "vuepress-theme-vdoing",
-        link: "https://doc.xugaoyi.com/",
-      },
-      {
-        text: "U2SB",
-        link: "https://www.u2sb.com/",
-      },
-      {
-        text: "MonoLogueChi",
-        link: "https://blog.xxwhite.com/",
-      },
+        text: "关于我",
+        link: "/pages/114270/",
+      }
     ],
   },
+
+  // {
+  //   text: "友情链接",
+  //   items: [
+  //     {
+  //       text: "vuepress",
+  //       link: "https://vuepress.vuejs.org/",
+  //     }
+  //   ],
+  // },
 ];
