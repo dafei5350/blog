@@ -54,30 +54,31 @@ export default <UserPlugins>[
   ["fulltext-search"],
   ['go-top'],
   [
-    'vuepress-plugin-comment',
-    {
-      choosen: 'gitalk',
-      options: {
-        clientID: 'ccb3b5d588330d9916a6',
-        clientSecret: 'ad5c8eaa32fe41c6e1d0a57e52a09e62b8aab1a3',
-        repo: 'blog',
-        owner: 'dafei5350',
-        admin: ['dafei5350'],
-        // distractionFreeMode: false,
-        pagerDirection: 'last', // 'first'正序 | 'last'倒序
-        id: "<%- (window.location.origin + (frontmatter.to.path || window.location.pathname)).slice(-50) %>", //  页面的唯一标识,长度不能超过50
-        title: "「评论」<%- document.title %>", // GitHub issue 的标题
-        labels: ["Gitalk", "Comment"], // GitHub issue 的标签
-        body:"<%- document.title %>：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
-      }
-    }
-  ],
-  [
     {
       name: 'custom-plugins',
-      globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
   ],
+
+  // [
+  //   'vuepress-plugin-comment',
+  //   {
+  //     choosen: 'gitalk',
+  //     options: {
+  //       clientID: 'ccb3b5d588330d9916a6',
+  //       clientSecret: 'ad5c8eaa32fe41c6e1d0a57e52a09e62b8aab1a3',
+  //       repo: 'blog',
+  //       owner: 'dafei5350',
+  //       admin: ['dafei5350'],
+  //       // distractionFreeMode: false,
+  //       pagerDirection: 'last', // 'first'正序 | 'last'倒序
+  //       id: "<%- (window.location.origin + (frontmatter.to.path || window.location.pathname)).slice(-50) %>", //  页面的唯一标识,长度不能超过50
+  //       title: "「评论」<%- document.title %>", // GitHub issue 的标题
+  //       labels: ["Gitalk", "Comment"], // GitHub issue 的标签
+  //       body:"<%- document.title %>：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
+  //     }
+  //   }
+  // ],
   [
     '@vuepress-reco/vuepress-plugin-kan-ban-niang',
     {
