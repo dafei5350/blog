@@ -2,7 +2,7 @@
 pageComponent:
   name: Catalogue
   data:
-    path: 010.web/020.小程序
+    path: 010.大前端/020.小程序
     key: 小程序
     imgUrl: /assets/img/mini-program.png
     description: 这只是个小坑，问题不大...

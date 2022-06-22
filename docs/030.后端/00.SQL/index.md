@@ -2,7 +2,7 @@
 pageComponent:
   name: Catalogue
   data:
-    path: 030.api/00.SQL
+    path: 030.后端/00.SQL
     key: SQL
     imgUrl: /assets/img/sql.png
     description: 看见就烦

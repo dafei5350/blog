@@ -86,7 +86,7 @@ export default <UserPlugins>[
       clean: true,
       info: 'https://blog.dafei110.cn',
       messages: {
-        welcome: '欢迎来到 <%- site.title > 的 blog',
+        welcome: '欢迎来到 <%- site.title %> 的 blog',
         home: '心里的花，我想要带你回家',
         theme: '好吧，希望你能喜欢我的其他小伙伴。',
         close: '再见哦'

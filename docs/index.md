@@ -10,7 +10,7 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 大前端
     details: 这个BUG一定是后端的问题
-    link: /pages/8d130b/ # 可选
+    link: /pages/42d833/ # 可选
     imgUrl: /assets/img/web.png # 可选
   - title: 算法
     details: 狗屁不会

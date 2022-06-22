@@ -2,18 +2,17 @@
 pageComponent:
   name: Catalogue
   data:
-    path: 030.api/02.Java
-    key: java
-    imgUrl: /assets/img/java.png
-    description: 看见就烦
-title: Java
-date: 2022-06-21 16:12:38
-permalink: /pages/85d6ed/
+    path: 030.后端/01.Node
+    key: vue
+    imgUrl: /assets/img/node.png
+    description: 前端之崛起
+title: Node.js
+date: 2022-06-21 17:29:09
+permalink: /pages/ae436e/
 categories:
-  - 后端
-  - Java
+  - Node
 tags:
-  - 
+  - Node
 sidebar: false # 不显示侧边栏
 article: true # 不是文章页 (不显示面包屑栏、最近更新栏等)
 comment: false # 不显示评论栏
