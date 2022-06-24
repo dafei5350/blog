@@ -40,15 +40,17 @@ export default <Array<NavItem>>[
 
     ],
   },
-  {
-    text: "关于",
-    items: [
-      {
-        text: "关于我",
-        link: "/pages/b17a2e/",
-      }
-    ],
-  },
+  { text: "归档", link: "/archives/" },
+  { text: "关于我", link: "/pages/b17a2e/" },
+  // {
+  //   text: "关于",
+  //   items: [
+  //     {
+  //       text: "关于我",
+  //       link: "/pages/b17a2e/",
+  //     }
+  //   ],
+  // },
 
   // {
   //   text: "友情链接",
