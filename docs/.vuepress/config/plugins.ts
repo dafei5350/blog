@@ -59,7 +59,6 @@ export default <UserPlugins>[
       globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
   ],
-
   // [
   //   'vuepress-plugin-comment',
   //   {

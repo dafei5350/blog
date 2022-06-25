@@ -18,6 +18,14 @@ export default <Array<NavItem>>[
       {
         text: "Node",
         link: "/pages/ae436e/",
+      },
+      {
+        text: "CSS",
+        link: "/pages/2acd6d/",
+      },
+      {
+        text: "JavaScript",
+        link: "/pages/a02d89/",
       }
     ],
   },

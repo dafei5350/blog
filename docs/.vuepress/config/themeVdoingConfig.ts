@@ -55,7 +55,7 @@ export default <VdoingThemeConfig>{
   // 博主信息，显示在首页侧边栏
   blogger: {
     avatar:
-      "https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/more.4rj6phfbsn40.webp",
+      "https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/avatar.4blj9ewsf3g0.webp",
     name: "weiliang",
     slogan: "Enjoy when you can, and endure when you must",
   },
