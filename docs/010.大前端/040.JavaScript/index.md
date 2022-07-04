@@ -4,7 +4,7 @@ pageComponent:
   data:
     path: 010.大前端/030.JavaScript
     key: JavaScript
-    imgUrl: https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/js.4sd7uc3hy740.webp
+    imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/js.4sd7uc3hy740.webp
     description: All in JavaScript
 title: JavaScript
 date: 2022-06-25 17:58:44

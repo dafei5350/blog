@@ -11,15 +11,15 @@ features: # 可选的
   - title: 大前端
     details: 这个BUG一定是后端的问题
     link: /pages/42d833/ # 可选
-    imgUrl: https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/web.6ko7dr0itgk0.webp # 可选
+    imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/web.6ko7dr0itgk0.webp # 可选
   - title: 算法
     details: 狗屁不会
     link: /pages/cd4d4c/
-    imgUrl: https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/other.35ae8dydv0u0.webp
+    imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/other.35ae8dydv0u0.webp
   - title: 后端
     details: 这个BUG一定是前端的问题
     link: /pages/c04ff9/
-    imgUrl: https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/more.4rj6phfbsn40.webp
+    imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/more.4rj6phfbsn40.webp
 
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
