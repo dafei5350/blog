@@ -2,6 +2,7 @@
 pageComponent:
   name: Catalogue
   data:
+    path: 010.大前端
     key: 010.大前端
     imgUrl: /assets/img/web.png
     description: JavaScript、ES6、Vue框架等前端技术

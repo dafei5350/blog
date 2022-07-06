@@ -14,8 +14,11 @@ categories:
   - vue
 tags:
   - vue
-sidebar: false # 侧边栏
-article: true # 文章页 (面包屑栏、最近更新栏等)
-comment: true # 评论栏
-editLink: true
+sidebar: false
+article: false
+comment: false
+editLink: false
 ---
+
+
+   
