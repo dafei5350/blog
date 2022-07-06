@@ -22,9 +22,9 @@ export default <VdoingThemeConfig>{
   tag: true, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的front matter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
   archive: true, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
   // bodyBgImg: [
-  //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-  //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-  //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+  //   'https://gcore.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
+  //   'https://gcore.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
+  //   'https://gcore.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
   // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
   // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
   // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -55,7 +55,7 @@ export default <VdoingThemeConfig>{
   // 博主信息，显示在首页侧边栏
   blogger: {
     avatar:
-      "https://cdn.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/avatar.4blj9ewsf3g0.webp",
+      "https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/avatar.4blj9ewsf3g0.webp",
     name: "weiliang",
     slogan: "Enjoy when you can, and endure when you must",
   },
