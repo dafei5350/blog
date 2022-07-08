@@ -17,7 +17,7 @@ features: # 可选的
     link: /pages/cd4d4c/
     imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/other.35ae8dydv0u0.webp
   - title: 后端
-    details: 这个BUG一定是前端的问题
+    details: 对！这都是我的错😎
     link: /pages/c04ff9/
     imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/more.4rj6phfbsn40.webp
 

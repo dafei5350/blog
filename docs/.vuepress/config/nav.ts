@@ -56,7 +56,7 @@ export default <Array<NavItem>>[
 
     ],
   },
-
+  { text: "✨水云身", link: "/pages/39876d/" },
   { text: "归档", link: "/archives/" },
   { text: "关于我", link: "/pages/b17a2e/" },
   // {
