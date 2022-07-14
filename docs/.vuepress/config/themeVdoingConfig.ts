@@ -108,7 +108,7 @@ export default <VdoingThemeConfig>{
     copyrightInfo: `
       <a href='https://blog.dafei110.cn' target='_blank'>weiliang's Blog</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
       <br>
-      <a href="http://beian.miit.gov.cn/" target="_blank">豫ICP备19032697号</a>
+      <a href="http://beian.miit.gov.cn/" target="_blank">豫ICP备19032697号-2</a>
     `, // 博客版权信息，支持a标签
   },
 };
