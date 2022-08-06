@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "mockjs": "^1.1.0",
     "vuepress-plugin-demo-container": "^0.2.0",
     "vuepress-plugin-go-top": "^1.0.4"
   }
