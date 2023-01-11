@@ -52,7 +52,7 @@ export default <UserPlugins>[
     },
   ],
   ["fulltext-search"],
-  ['go-top'],
+  // ['go-top'],
   [
     {
       name: 'custom-plugins',

@@ -10,15 +10,15 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 大前端
     details: 这个BUG一定是后端的问题
-    link: /pages/42d833/ # 可选
+    link: /web/ # 可选
     imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/web.6ko7dr0itgk0.webp # 可选
   - title: 算法
     details: 狗屁不会
-    link: /pages/cd4d4c/
+    link: /algorithm/
     imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/other.35ae8dydv0u0.webp
   - title: 后端
     details: 对！这都是我的错😎
-    link: /pages/c04ff9/
+    link: /backend/
     imgUrl: https://gcore.jsdelivr.net/gh/dafei5350/imgHost@master/20220625/more.4rj6phfbsn40.webp
 
 
@@ -27,6 +27,5 @@ postList: detailed
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 <ClientOnly>
-  <WebInfo/>
+  <WebInfo />
 </ClientOnly>
-
