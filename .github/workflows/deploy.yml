@@ -45,7 +45,7 @@ jobs:
       # 发布到 gh-page 分支
       - name: Deploy github
         uses: peaceiris/actions-gh-pages@v3
-        with:
+        with: 
           publish_dir: ./dist
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           user_name: "github-actions[bot]"
